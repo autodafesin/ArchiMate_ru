@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewpoints version="3.0">
+
+    <viewpoint id="organization">
+        <name xml:lang="en">Организация</name>
+
+        <concept>BusinessActor</concept>
+        <concept>BusinessCollaboration</concept>
+        <concept>BusinessInterface</concept>
+        <concept>BusinessRole</concept>
+        <concept>Location</concept>
+    </viewpoint>
+
+    <viewpoint id="business_process_cooperation">
+        <name xml:lang="en">Кооперация бизнес-процессов</name>
+
+        <concept>$ApplicationElements$</concept>
+        <concept>BusinessActor</concept>
+        <concept>BusinessCollaboration</concept>
+        <concept>BusinessEvent</concept>
+        <concept>BusinessFunction</concept>
+        <concept>BusinessInteraction</concept>
+        <concept>BusinessInterface</concept>
+        <concept>BusinessObject</concept>
+        <concept>BusinessProcess</concept>
+        <concept>BusinessRole</concept>
+        <concept>BusinessService</concept>
+        <concept>Location</concept>
+        <concept>Representation</concept>
+    </viewpoint>
+
+    <viewpoint id="product">
+        <name xml:lang="en">Продукт</name>
+
+        <concept>$ApplicationElements$</concept>
+        <concept>Artifact</concept>
+        <concept>BusinessActor</concept>
+        <concept>BusinessCollaboration</concept>
+        <concept>BusinessEvent</concept>
+        <concept>BusinessFunction</concept>
+        <concept>BusinessInteraction</concept>
+        <concept>BusinessInterface</concept>
+        <concept>BusinessObject</concept>
+        <concept>BusinessProcess</concept>
+        <concept>BusinessRole</concept>
+        <concept>BusinessService</concept>
+        <concept>Contract</concept>
+        <concept>Material</concept>
+        <concept>Product</concept>
+        <concept>TechnologyService</concept>
+        <concept>Value</concept>
+    </viewpoint>
+
+    <viewpoint id="application_cooperation">
+        <name xml:lang="en">Кооперация приложений</name>
+        
+        <concept>$ApplicationElements$</concept>
+        <concept>Location</concept>
+    </viewpoint>
+
+    <viewpoint id="application_structure">
+        <name xml:lang="en">Структура приложений</name>
+
+        <concept>ApplicationComponent</concept>
+        <concept>ApplicationCollaboration</concept>
+        <concept>ApplicationInterface</concept>
+        <concept>DataObject</concept>
+    </viewpoint>
+
+    <viewpoint id="application_usage">
+        <name xml:lang="en">Использование приложений</name>
+
+        <concept>$ApplicationElements$</concept>
+        <concept>BusinessActor</concept>
+        <concept>BusinessCollaboration</concept>
+        <concept>BusinessEvent</concept>
+        <concept>BusinessFunction</concept>
+        <concept>BusinessInteraction</concept>
+        <concept>BusinessObject</concept>
+        <concept>BusinessProcess</concept>
+        <concept>BusinessRole</concept>
+    </viewpoint>
+
+    <viewpoint id="implementation_deployment">
+        <name xml:lang="en">Реализация и развертывание</name>
+
+        <concept>$ApplicationElements$</concept>
+        <concept>Artifact</concept>
+        <concept>Path</concept>
+        <concept>SystemSoftware</concept>
+        <concept>TechnologyFunction</concept>
+        <concept>TechnologyInteraction</concept>
+        <concept>TechnologyInterface</concept>
+        <concept>TechnologyProcess</concept>
+        <concept>TechnologyService</concept>
+    </viewpoint>
+
+    <viewpoint id="technology">
+        <name xml:lang="en">Технологии</name>
+        
+        <concept>$TechnologyElements$</concept>
+        <concept>Location</concept>
+    </viewpoint>
+
+    <viewpoint id="technology_usage">
+        <name xml:lang="en">Использование технологий</name>
+
+        <concept>ApplicationComponent</concept>
+        <concept>ApplicationCollaboration</concept>
+        <concept>ApplicationEvent</concept>
+        <concept>ApplicationFunction</concept>
+        <concept>ApplicationInteraction</concept>
+        <concept>ApplicationProcess</concept>
+        <concept>$TechnologyElements$</concept>
+    </viewpoint>
+
+    <viewpoint id="information_structure">
+        <name xml:lang="en">Структура информации</name>
+
+        <concept>Artifact</concept>
+        <concept>BusinessObject</concept>
+        <concept>DataObject</concept>
+        <concept>Meaning</concept>
+        <concept>Representation</concept>
+    </viewpoint>
+
+    <viewpoint id="service_realization">
+        <name xml:lang="en">Реализация сервисов</name>
+
+        <concept>$ApplicationElements$</concept>
+        <concept>BusinessActor</concept>
+        <concept>BusinessCollaboration</concept>
+        <concept>BusinessEvent</concept>
+        <concept>BusinessFunction</concept>
+        <concept>BusinessInteraction</concept>
+        <concept>BusinessInterface</concept>
+        <concept>BusinessObject</concept>
+        <concept>BusinessProcess</concept>
+        <concept>BusinessRole</concept>
+        <concept>BusinessService</concept>
+        <concept>Representation</concept>
+    </viewpoint>
+
+    <viewpoint id="physical">
+        <name xml:lang="en">Физическое представление</name>
+        
+        <concept>$PhysicalElements$</concept>
+        <concept>CommunicationNetwork</concept>
+        <concept>Device</concept>
+        <concept>Location</concept>
+        <concept>Node</concept>
+        <concept>Path</concept>
+    </viewpoint>
+
+    <viewpoint id="stakeholder">
+        <name xml:lang="en">Заинтересованная сторона</name>
+        
+        <concept>Assessment</concept>
+        <concept>Driver</concept>
+        <concept>Goal</concept>
+        <concept>Outcome</concept>
+        <concept>Stakeholder</concept>
+    </viewpoint>
+
+    <viewpoint id="goal_realization">
+        <name xml:lang="en">Реализация целей</name>
+        
+        <concept>Constraint</concept>
+        <concept>Goal</concept>
+        <concept>Outcome</concept>
+        <concept>Principle</concept>
+        <concept>Requirement</concept>
+    </viewpoint>
+
+    <viewpoint id="requirements_realization">
+        <name xml:lang="en">Реализация требований</name>
+        
+        <concept>Constraint</concept>
+        <concept>Goal</concept>
+        <concept>Meaning</concept>
+        <concept>Outcome</concept>
+        <concept>Principle</concept>
+        <concept>Requirement</concept>
+        <concept>Value</concept>
+        <concept>$StrategyElements$</concept>
+
+        <concept>$BusinessElements$</concept>
+        <concept>$ApplicationElements$</concept>
+        <concept>$TechnologyElements$</concept>
+        <concept>Location</concept>
+    </viewpoint>
+
+    <viewpoint id="motivation">
+        <name xml:lang="en">Мотивация</name>
+        
+        <concept>$MotivationElements$</concept>
+    </viewpoint>
+
+    <viewpoint id="strategy">
+        <name xml:lang="en">Стратегия</name>
+        
+        <concept>$StrategyElements$</concept>
+        <concept>Outcome</concept>
+    </viewpoint>
+
+    <viewpoint id="capability">
+        <name xml:lang="en">Карта возможностей</name>
+        
+        <concept>Capability</concept>
+        <concept>Outcome</concept>
+        <concept>Resource</concept>
+    </viewpoint>
+
+    <viewpoint id="value_stream">
+        <name xml:lang="en">Поток создания ценности</name>
+        
+        <concept>Capability</concept>
+        <concept>Outcome</concept>
+        <concept>Stakeholder</concept>
+        <concept>ValueStream</concept>
+    </viewpoint>
+
+    <viewpoint id="outcome_realization">
+        <name xml:lang="en">Реализация результатов</name>
+        
+        <concept>Capability</concept>
+        <concept>Meaning</concept>
+        <concept>Outcome</concept>
+        <concept>Resource</concept>
+        <concept>Value</concept>
+        <concept>ValueStream</concept>
+        
+        <concept>$BusinessElements$</concept>
+        <concept>$ApplicationElements$</concept>
+        <concept>$TechnologyElements$</concept>
+        <concept>Location</concept>
+    </viewpoint>
+
+    <viewpoint id="resource">
+        <name xml:lang="en">Карта ресурсов</name>
+        
+        <concept>Capability</concept>
+        <concept>Resource</concept>
+        <concept>WorkPackage</concept>
+    </viewpoint>
+
+    <viewpoint id="project">
+        <name xml:lang="en">Проект</name>
+        
+        <concept>BusinessActor</concept>
+        <concept>BusinessRole</concept>
+        <concept>Deliverable</concept>
+        <concept>Goal</concept>
+        <concept>ImplementationEvent</concept>
+        <concept>Outcome</concept>
+        <concept>WorkPackage</concept>
+    </viewpoint>
+
+    <viewpoint id="migration">
+        <name xml:lang="en">Миграция</name>
+        
+        <concept>Gap</concept>
+        <concept>Plateau</concept>
+    </viewpoint>
+
+    <viewpoint id="implementation_migration">
+        <name xml:lang="en">Реализация и миграция</name>
+        
+        <concept>$BusinessElements$</concept>
+        <concept>$ApplicationElements$</concept>
+        <concept>$TechnologyElements$</concept>
+        <concept>$ImplementationMigrationElements$</concept>
+        <concept>Constraint</concept>
+        <concept>Goal</concept>
+        <concept>Location</concept>
+        <concept>Requirement</concept>
+    </viewpoint>
+
+    <viewpoint id="layered">
+        <name xml:lang="en">Слоистое представление</name>
+        <!-- No concepts means that all concepts are allowed -->
+    </viewpoint>
+
+</viewpoints>

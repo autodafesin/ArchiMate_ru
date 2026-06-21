@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cheatsheet
+      title="Создание новой модели">
+   <intro>
+      <description>
+         Эта шпаргалка представляет собой пошаговое описание того, как создать базовую модель ArchiMate.
+      </description>
+   </intro>
+   <item
+         skip="false"
+         title="Откройте дерево модели">
+      <description>
+         Чтобы увидеть модель в дереве моделей, убедитесь, что окно дерева моделей открыто.
+      </description>
+      <action
+      		required="false"
+      		pluginId="com.archimatetool.help"
+      		class="com.archimatetool.help.cheatsheets.ShowViewCheatSheetAction" 
+            param1="com.archimatetool.editor.treeModelView"/>
+            
+   </item>
+   <item
+         title="Добавить новую модель">
+      <description>
+         Чтобы добавить новую модель, нажмите кнопку <b>&quot;Новая  модель&quot;</b> на панели инструментов или щелкните правой кнопкой мыши в окне дерева моделей и выберите <b>&quot;Новая модель&quot;</b>.
+      </description>
+      <action
+      		required="false"
+      		pluginId="com.archimatetool.editor"
+      		class="com.archimatetool.editor.actions.NewArchimateModelAction"/>
+   </item>
+   <item
+         title="Добавить элементы в модель">
+      <description>
+         Теперь в дереве модели вы должны увидеть базовую структуру папок вашей новой модели. Также должно открыться окно <b>Диаграмма модели</b>. Здесь вы можете визуально построить свою модель, перетаскивая элементы и соединения с палитры на диаграмму.
+<br/><br/>
+Вы также можете добавлять элементы непосредственно в дерево модели, щелкнув правой кнопкой мыши по папке и выбрав пункт меню  <b>&quot;Создать&quot;</b>.После добавления элементы можно перетаскивать из дерева на диаграмму.
+      </description>
+   </item>
+</cheatsheet>

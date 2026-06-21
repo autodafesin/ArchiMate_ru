@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.toc"?>
+<toc label="Руководство пользователя ArchiMate">
+    
+ <topic href="help/Text/intro.html" label="Введение">
+ </topic>
+ <topic href="help/Text/install.html" label="Установка и запуск ArchiMate">
+ </topic>
+    <topic href="help/Text/archi_working.html" label="Работа в ArchiMate">
+    </topic>
+    <topic href="help/Text/new_model.html" label="Создание новой модели ArchiMate">
+    </topic>
+    <topic label="Дерево модели">
+       <topic href="help/Text/model_tree.html" label="Введение">
+       </topic>
+       <topic href="help/Text/model_tree_add.html" label="Добавление элементов непосредственно в дерево модели">
+       </topic>
+       <topic href="help/Text/model_tree_folders.html" label="Папки и организация">
+       </topic>
+       <topic href="help/Text/model_tree_working.html" label="Работа в дереве модели">
+       </topic>
+       <topic href="help/Text/model_tree_search.html" label="Поиск и фильтрация">
+       </topic>
+    </topic>
+    <topic label="Представления">
+       <topic href="help/Text/views.html" label="Введение">
+       </topic>
+       <topic href="help/Text/views_open_create.html" label="Открытие и создание представлений">
+       </topic>
+       <topic href="help/Text/views_working.html" label="Работа с представлениями">
+       </topic>
+       <topic href="help/Text/view_nav.html" label="Навигация по представлению">
+          <topic href="help/Text/outline.html" label="Окно контура">
+          </topic>
+       </topic>
+       <topic href="help/Text/view_palette.html" label="Палитра">
+          <topic href="help/Text/view_palette_tools.html" label="Инструменты выделения">
+          </topic>
+          <topic href="help/Text/view_palette_creation_tools.html" label="Инструменты создания">
+          </topic>
+          <topic href="help/Text/view_format_painter.html" label="Редактор форматов">
+          </topic>
+       </topic>
+       <topic href="help/Text/view_addnew.html" label="Добавление новых элементов и связей">
+       </topic>
+       <topic href="help/Text/view_junction.html" label="Добавление соединителя">
+       </topic>
+       <topic href="help/Text/view_magic_connector.html" label="Добавление новых элементов и связей с помощью волшебного коннектора.">
+       </topic>
+       <topic href="help/Text/view_addexisting.html" label="Добавление элементов и связей из дерева модели в представление.">
+       </topic>
+       <topic href="help/Text/view_note.html" label="Добавление заметки">
+       </topic>
+       <topic href="help/Text/view_group.html" label="Добавление группы">
+       </topic>
+       <topic href="help/Text/view_legend.html" label="Добавление легенды">
+       </topic>
+       <topic href="help/Text/view_reference.html" label="Добавление ссылки на другое представление">
+       </topic>
+       <topic label="Соединения">
+          <topic href="help/Text/view_conn_bendpoints.html" label="Точки изгиба">
+          </topic>
+          <topic href="help/Text/view_conn_properties.html" label="Настройка свойств соединения">
+          </topic>
+          <topic href="help/Text/view_conn_router.html" label="Настройка типа маршрутизатора подключения для представления">
+          </topic>
+       </topic>
+       <topic href="help/Text/view_container_nested.html" label="Контейнерные элементы и взаимосвязи между вложенными элементами">
+       </topic>
+       <topic href="help/Text/view_z_order.html" label="Определение порядка перекрывающихся элементов">
+       </topic>
+       <topic href="help/Text/view_copy_paste_delete.html" label="Копирование, вставка, выделение и удаление элементов.">
+       </topic>
+       <topic href="help/Text/view_align_grid.html" label="Инструменты выравнивания, направляющие и сетка">
+       </topic>
+       <topic href="help/Text/view_fullscreen.html" label="Отображение изображения в полноэкранном режиме">
+       </topic>
+       <topic href="help/Text/view_export.html" label="Экспорт изображения в виде файла">
+       </topic>
+    </topic>
+    <topic href="help/Text/viewpoints.html" label="Перспектива">
+    </topic>
+    <topic href="help/Text/properties_window.html" label="Окно свойств">
+       <topic href="help/Text/properties_model.html" label="Свойства модели">
+       </topic>
+       <topic href="help/Text/properties_element.html" label="Свойства элемента">
+       </topic>
+       <topic href="help/Text/properties_element_appearance.html" label="Свойства внешнего вида элемента">
+       </topic>
+       <topic href="help/Text/properties_relation.html" label="Свойства связей">
+       </topic>
+       <topic href="help/Text/properties_relation_appearance.html" label="Свойства внешнего вида связи соединенея">
+       </topic>
+       <topic href="help/Text/properties_view.html" label="Сваойства представления">
+       </topic>
+       <topic href="help/Text/properties_viewref.html" label="Свойства ссылки на представление">
+       </topic>
+       <topic href="help/Text/properties_folder.html" label="Свойства папки">
+       </topic>
+       <topic href="help/Text/properties_note.html" label="Свойства заметки">
+       </topic>
+       <topic href="help/Text/properties_note_connection.html" label="Свойства соединения">
+       </topic>
+       <topic href="help/Text/properties_group.html" label="Свойства группы">
+       </topic>
+       <topic href="help/Text/properties_legend.html" label="Свойства легенды">
+       </topic>
+       <topic href="help/Text/properties_user_properties.html" label="Свойства пользователя">
+       </topic>
+    </topic>
+    <topic href="help/Text/navigator.html" label="Окно навигатора">
+    </topic>
+    <topic href="help/Text/visualiser.html" label="Окно визуализатора">
+    </topic>
+    <topic href="help/Text/hints.html" label="Окно подсказок">
+    </topic>
+    <topic href="help/Text/outline.html" label="Окно контура">
+    </topic>
+    <topic href="help/Text/tools.html" label="Инструменты">
+       <topic href="help/Text/generate_view.html" label="Создание представления из элемента">
+       </topic>
+       <topic href="help/Text/properties_manager.html" label="Менеджер свойств">
+       </topic>
+       <topic href="help/Text/specializations_manager.html" label="Менеджер специализаций">
+       </topic>
+       <topic href="help/Text/validator.html" label="Валидатор">
+       </topic>
+       <topic href="help/Text/preview_report.html" label="Предварительный просмотр HTML-отчета">
+       </topic>
+    </topic>
+    <topic href="help/Text/open_save_print.html" label="Открытие, сохранение и печать">
+    </topic>
+    <topic href="help/Text/csv.html" label="Экспорт и импорт модели в формате CSV">
+    </topic>
+    <topic href="help/Text/import-model.html" label="Импорт другой модели в текущую модель">
+    </topic>
+    <topic href="help/Text/exchange-intro.html" label="Формат обмена ArchiMate от The Open Group">
+       <topic href="help/Text/exchange-export.html" label="Экспорт и настройки">
+       </topic>
+       <topic href="help/Text/exchange-export_metadata.html" label="Добавление метаданных">
+       </topic>
+       <topic href="help/Text/exchange-import.html" label="Импорт модели из файла формата Open Exchange.">
+       </topic>
+    </topic>
+    <topic href="help/Text/reporting.html" label="Отчетность">
+       <topic href="help/Text/reporting-html.html" label="HTML-отчеты">
+       </topic>
+       <topic href="help/Text/reporting-jasper.html" label="Jasper-отчеты">
+       </topic>
+    </topic>
+    <topic href="help/Text/templates.html" label="Шаблоны">
+       <topic href="help/Text/templates_new.html" label="Создание нового шаблона">
+       </topic>
+       <topic href="help/Text/templates_new_model.html" label="Создание новой модели из шаблона">
+       </topic>
+       <topic href="help/Text/templates_managing.html" label="Управление шаблонами">
+       </topic>
+    </topic>
+    <topic href="help/Text/relations_rules.html" label="Связи">
+    </topic>
+    <topic href="help/Text/sketch_view.html" label="Представление эскиза">
+    </topic>
+    <topic href="help/Text/canvas.html" label="Набор инструментов для моделирования холста">
+       <topic href="help/Text/canvas_getting_started.html" label="Начиная">
+       </topic>
+       <topic href="help/Text/canvas_details.html" label="Вникая в детали">
+       </topic>
+       <topic href="help/Text/properties_canvas_block.html" label="Свойства блока">
+       </topic>
+       <topic href="help/Text/properties_canvas_sticky.html" label="Свойства стикеров">
+       </topic>
+       <topic href="help/Text/properties_canvas_image.html" label="Свойства изображения">
+       </topic>
+       <topic href="help/Text/properties_canvas_connection.html" label="Свойства соединения">
+       </topic>
+       <topic href="help/Text/image_chooser.html" label="Добавление изображений к объектам">
+       </topic>
+       <topic href="help/Text/canvas_save_as_template.html" label="Сохранение холста в качестве шаблона">
+       </topic>
+       <topic href="help/Text/canvas_new_from_template.html" label="Создание нового холста на основе шаблона">
+       </topic>
+       <topic href="help/Text/canvas_templates_managing.html" label="Управление шаблонами холста">
+       </topic>
+    </topic>
+    <topic href="help/Text/preferences.html" label="Настройки">
+       <topic href="help/Text/prefs_appearance.html" label="Оформление">
+       </topic>
+       <topic href="help/Text/prefs_canvas.html" label="Набор инструментов холста">
+       </topic>
+       <topic href="help/Text/prefs_connections.html" label="Соединения">
+       </topic>
+       <topic href="help/Text/prefs_diagram.html" label="Диаграмма">
+       </topic>
+       <topic href="help/Text/prefs_general.html" label="Общие">
+       </topic>
+       <topic href="help/Text/prefs_jasper.html" label="Jasper-отчеты">
+       </topic>
+       <topic href="help/Text/prefs_system.html" label="Система">
+       </topic>
+    </topic>
+    <topic href="help/Text/plugins.html" label="Плагины">
+    </topic>
+</toc>

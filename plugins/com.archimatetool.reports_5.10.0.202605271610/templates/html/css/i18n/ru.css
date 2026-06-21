@@ -1,0 +1,164 @@
+/* View pages */
+:lang(en) .i18n-content:after {content: "Содержание"}
+:lang(en) .i18n-documentation:after {content: "Документация"}
+:lang(en) .i18n-purpose:after {content: "Назначение"}
+:lang(en) .i18n-properties:after {content: "Свойства"}
+:lang(en) .i18n-analysis:after {content: "Анализ"}
+:lang(en) .i18n-used-in-views:after {content: "Используется в представлениях"}
+:lang(en) .i18n-model-relations:after {content: "Связи модели"}
+:lang(en) .i18n-elements:after {content: "Элементы"}
+:lang(en) .i18n-relationships:after {content: "Связи"}
+:lang(en) .i18n-key:after {content: "Ключ"}
+:lang(en) .i18n-value:after {content: "Значение"}
+:lang(en) .i18n-name:after {content: "Наименование"}
+:lang(en) .i18n-type:after {content: "Тип"}
+:lang(en) .i18n-source:after {content: "Источник"}
+:lang(en) .i18n-target:after {content: "Назначение"}
+:lang(en) .i18n-query:after {content: "Запрос"}
+
+/* element panel */
+:lang(en) .i18n-empty_element_message:after {content: "Выберите элемент в дереве модели или в представлении, чтобы показать его подробности здесь"}
+:lang(en) .i18n-relation-source:after {content: "Источник:"}
+:lang(en) .i18n-relation-target:after {content: "Назначение:"}
+:lang(en) .i18n-specialization:after {content: "Специализация:"}
+
+/* ViewPoints (com.archimatetool.editor.model.viewpoints.IViewpoint) */
+:lang(en) .i18n-viewpoint:after {content: "Представление"}
+:lang(en) .i18n-viewpoint-:after {content: "Нет представления"}
+:lang(en) .i18n-viewpoint-application_cooperation:after {content: "Кооперация приложений"}
+:lang(en) .i18n-viewpoint-application_usage:after {content: "Использование приложений"}
+:lang(en) .i18n-viewpoint-application_structure:after {content: "Структура приложений"}
+:lang(en) .i18n-viewpoint-business_process_cooperation:after {content: "Бизнес-кооперация процессов"}
+:lang(en) .i18n-viewpoint-capability:after {content: "Возможность"}
+:lang(en) .i18n-viewpoint-goal_realization:after {content: "Реализация целей"}
+:lang(en) .i18n-viewpoint-implementation_deployment:after {content: "Внедрение и развертывание"}
+:lang(en) .i18n-viewpoint-implementation_migration:after {content: "Внедрение и миграция"}
+:lang(en) .i18n-viewpoint-information_structure:after {content: "Структура информации"}
+:lang(en) .i18n-viewpoint-layered:after {content: "Слойное"}
+:lang(en) .i18n-viewpoint-migration:after {content: "Миграция"}
+:lang(en) .i18n-viewpoint-motivation:after {content: "Мотивация"}
+:lang(en) .i18n-viewpoint-organization:after {content: "Организация"}
+:lang(en) .i18n-viewpoint-outcome_realization:after {content: "Реализация результатов"}
+:lang(en) .i18n-viewpoint-physical:after {content: "Физическое"}
+:lang(en) .i18n-viewpoint-product:after {content: "Продукт"}
+:lang(en) .i18n-viewpoint-project:after {content: "Проект"}
+:lang(en) .i18n-viewpoint-requirements_realization:after {content: "Реализация требований"}
+:lang(en) .i18n-viewpoint-resource:after {content: "Ресурс"}
+:lang(en) .i18n-viewpoint-service_realization:after {content: "Реализация услуг"}
+:lang(en) .i18n-viewpoint-stakeholder:after {content: "Заинтересованная сторона"}
+:lang(en) .i18n-viewpoint-strategy:after {content: "Стратегия"}
+:lang(en) .i18n-viewpoint-technology:after {content: "Технология"}
+:lang(en) .i18n-viewpoint-technology_usage:after {content: "Использование технологий"}
+:lang(en) .i18n-viewpoint-value_stream:after {content: "Цепочка создания ценности"}
+
+
+/* Elements (Class.SimpleName from com.archimatetool.model) */
+:lang(en) .i18n-elementtype-ArchimateModel:before {content: "Модель"}
+:lang(en) .i18n-elementtype-AccessRelationship:before {content: "Доступ"}
+:lang(en) .i18n-elementtype-AggregationRelationship:before {content: "Агрегация"}
+:lang(en) .i18n-elementtype-ApplicationCollaboration:before {content: "Кооперация приложений"}
+:lang(en) .i18n-elementtype-ApplicationComponent:before {content: "Компонент приложения"}
+:lang(en) .i18n-elementtype-ApplicationEvent:before {content: "Событие приложения"}
+:lang(en) .i18n-elementtype-ApplicationFunction:before {content: "Функция приложения"}
+:lang(en) .i18n-elementtype-ApplicationInteraction:before {content: "Взаимодействие приложений"}
+:lang(en) .i18n-elementtype-ApplicationInterface:before {content: "Интерфейс приложения"}
+:lang(en) .i18n-elementtype-ApplicationProcess:before {content: "Процесс приложения"}
+:lang(en) .i18n-elementtype-ApplicationService:before {content: "Сервис приложения"}
+:lang(en) .i18n-elementtype-Artifact:before {content: "Артефакт"}
+:lang(en) .i18n-elementtype-Assessment:before {content: "Оценка"}
+:lang(en) .i18n-elementtype-AssignmentRelationship:before {content: "Назначение"}
+:lang(en) .i18n-elementtype-AssociationRelationship:before {content: "Связь (ассоциация)"}
+:lang(en) .i18n-elementtype-BusinessActor:before {content: "Бизнес-исполнитель"}
+:lang(en) .i18n-elementtype-BusinessCollaboration:before {content: "Бизнес-кооперация"}
+:lang(en) .i18n-elementtype-BusinessEvent:before {content: "Бизнес-событие"}
+:lang(en) .i18n-elementtype-BusinessFunction:before {content: "Бизнес-функция"}
+:lang(en) .i18n-elementtype-BusinessInteraction:before {content: "Бизнес-взаимодействие"}
+:lang(en) .i18n-elementtype-BusinessInterface:before {content: "Бизнес-интерфейс"}
+:lang(en) .i18n-elementtype-BusinessObject:before {content: "Бизнес-объект"}
+:lang(en) .i18n-elementtype-BusinessProcess:before {content: "Бизнес-процесс"}
+:lang(en) .i18n-elementtype-BusinessRole:before {content: "Бизнес-роль"}
+:lang(en) .i18n-elementtype-BusinessService:before {content: "Бизнес-услуга"}
+:lang(en) .i18n-elementtype-Capability:before {content: "Возможность"}
+:lang(en) .i18n-elementtype-CommunicationNetwork:before {content: "Коммуникационная сеть"}
+:lang(en) .i18n-elementtype-CompositionRelationship:before {content: "Композиция"}
+:lang(en) .i18n-elementtype-Constraint:before {content: "Ограничение"}
+:lang(en) .i18n-elementtype-CourseOfAction:before {content: "План действий"}
+:lang(en) .i18n-elementtype-Contract:before {content: "Контракт"}
+:lang(en) .i18n-elementtype-DataObject:before {content: "Объект данных"}
+:lang(en) .i18n-elementtype-Deliverable:before {content: "Результат поставки"}
+:lang(en) .i18n-elementtype-Device:before {content: "Устройство"}
+:lang(en) .i18n-elementtype-DistributionNetwork:before {content: "Сеть распределения"}
+:lang(en) .i18n-elementtype-Driver:before {content: "Драйвер"}
+:lang(en) .i18n-elementtype-Equipment:before {content: "Оборудование"}
+:lang(en) .i18n-elementtype-Facility:before {content: "Площадка"}
+:lang(en) .i18n-elementtype-FlowRelationship:before {content: "Передача"}
+:lang(en) .i18n-elementtype-Gap:before {content: "Разрыв"}
+:lang(en) .i18n-elementtype-Goal:before {content: "Цель"}
+:lang(en) .i18n-elementtype-Grouping:before {content: "Группировка"}
+:lang(en) .i18n-elementtype-ImplementationEvent:before {content: "Событие внедрения"}
+:lang(en) .i18n-elementtype-InfluenceRelationship:before {content: "Влияние"}
+:lang(en) .i18n-elementtype-Junction:before {content: "Узел"}
+:lang(en) .i18n-elementtype-Location:before {content: "Местоположение"}
+:lang(en) .i18n-elementtype-Material:before {content: "Материал"}
+:lang(en) .i18n-elementtype-Meaning:before {content: "Смысл"}
+:lang(en) .i18n-elementtype-Node:before {content: "Узел"}
+:lang(en) .i18n-elementtype-Outcome:before {content: "Результат"}
+:lang(en) .i18n-elementtype-Path:before {content: "Путь"}
+:lang(en) .i18n-elementtype-Plateau:before {content: "Плато"}
+:lang(en) .i18n-elementtype-Principle:before {content: "Принцип"}
+:lang(en) .i18n-elementtype-Product:before {content: "Продукт"}
+:lang(en) .i18n-elementtype-RealizationRelationship:before {content: "Реализация"}
+:lang(en) .i18n-elementtype-Representation:before {content: "Представление"}
+:lang(en) .i18n-elementtype-Requirement:before {content: "Требование"}
+:lang(en) .i18n-elementtype-Resource:before {content: "Ресурс"}
+:lang(en) .i18n-elementtype-ServingRelationship:before {content: "Обслуживание"}
+:lang(en) .i18n-elementtype-SpecializationRelationship:before {content: "Специализация"}
+:lang(en) .i18n-elementtype-Stakeholder:before {content: "Заинтересованная сторона"}
+:lang(en) .i18n-elementtype-SystemSoftware:before {content: "Системное ПО"}
+:lang(en) .i18n-elementtype-TechnologyCollaboration:before {content: "Технологическая кооперация"}
+:lang(en) .i18n-elementtype-TechnologyEvent:before {content: "Технологическое событие"}
+:lang(en) .i18n-elementtype-TechnologyFunction:before {content: "Технологическая функция"}
+:lang(en) .i18n-elementtype-TechnologyInteraction:before {content: "Технологическое взаимодействие"}
+:lang(en) .i18n-elementtype-TechnologyInterface:before {content: "Технологический интерфейс"}
+:lang(en) .i18n-elementtype-TechnologyObject:before {content: "Технологический объект"}
+:lang(en) .i18n-elementtype-TechnologyProcess:before {content: "Технологический процесс"}
+:lang(en) .i18n-elementtype-TechnologyService:before {content: "Технологическая услуга"}
+:lang(en) .i18n-elementtype-TriggeringRelationship:before {content: "Инициирование"}
+:lang(en) .i18n-elementtype-Value:before {content: "Ценность"}
+:lang(en) .i18n-elementtype-ValueStream:before {content: "Цепочка создания ценности"}
+:lang(en) .i18n-elementtype-WorkPackage:before {content: "Пакет работ"}
+
+/* Other Graphical Objects */
+:lang(en) .i18n-elementtype-DiagramModelGroup:after {content: "Группа"}
+:lang(en) .i18n-elementtype-DiagramModelNote:after {content: "Заметка"}
+:lang(en) .i18n-elementtype-SketchModel:after {content: "Эскиз"}
+:lang(en) .i18n-elementtype-SketchModelActor:after {content: "Исполнитель"}
+:lang(en) .i18n-elementtype-SketchModelSticky:after {content: "Стикер"}
+:lang(en) .i18n-elementtype-CanvasModel:after {content: "Холст"}
+:lang(en) .i18n-elementtype-CanvasModelBlock:after {content: "Блок"}
+:lang(en) .i18n-elementtype-CanvasModelSticky:after {content: "Стикер"}
+:lang(en) .i18n-elementtype-CanvasModelImage:after {content: "Изображение"}
+
+
+/* Model Tree */
+:lang(en) .i18n-modeltree:after {content: "Дерево модели"}
+:lang(en) .i18n-model_content:after {content: "Содержимое модели"}
+:lang(en) .i18n-strategy:after {content: "Стратегия"}
+:lang(en) .i18n-business_layer:after {content: "Бизнес"}
+:lang(en) .i18n-application_layer:after {content: "Приложения"}
+:lang(en) .i18n-technology_layer:after {content: "Технологии и физический уровень"}
+:lang(en) .i18n-motivation:after {content: "Мотивация"}
+:lang(en) .i18n-implementation:after {content: "Внедрение и миграция"}
+:lang(en) .i18n-connectors:after {content: "Другое"}
+:lang(en) .i18n-relations:after {content: "Связи"}
+:lang(en) .i18n-views:after {content: "Представления"}
+
+/* Modal Dialogs */
+:lang(en) .i18n-hint:after {content: "Подсказка"}
+:lang(en) .i18n-close:after {content: "Закрыть"}
+:lang(en) .i18n-about:after {content: "О программе"}
+:lang(en) .i18n-about-pluginname:after {content: "Плагин Archi для HTML-отчётов"}
+:lang(en) .i18n-about-pluginversion:after {content: "Версия 1.3.1"}
+:lang(en) .i18n-about-plugintext1:after {content: "Этот плагин разработан Жаном-Батистом Сарроди, Квентином Варке и Филом Бофвойром."}
+:lang(en) .i18n-about-plugintext2:after {content: "Этот документ создан с использованием Archi®. Archi® — это бесплатный, открытый, кроссплатформенный инструмент для создания моделей ArchiMate и предназначен для всех уровней специалистов по корпоративной архитектуре и моделированию. Он предоставляет недорогое решение для входа для пользователей, которые делают первые шаги в языке моделирования ArchiMate, или для тех, кто ищет бесплатный кроссплатформенный инструмент моделирования ArchiMate для своей компании или организации и хочет использовать этот язык в рамках TOGAF® или другой методологии корпоративной архитектуры."}
+:lang(en) .i18n-about-plugintext3:after {content: "является зарегистрированным товарным знаком Филиппа Бофвойра."}

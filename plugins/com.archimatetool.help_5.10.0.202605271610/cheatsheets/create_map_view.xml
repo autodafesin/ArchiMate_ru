@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cheatsheet
+      title="Создайте представления карты">
+   <intro>
+      <description>
+         This cheat sheet shows you how to create a Map View of your existing Views in a model. A Map View contains shortcuts to Views that when double-clicked will open the linked View.<br/>
+<br/>
+You can also create these manually by dragging a View from the Models Tree to another view.<br/>
+<br/>
+This cheat sheet can create one for you automatically, provided you have the Models Tree open, that you have an Archimate model selected in the Models Tree, and the model has at least one View.
+      </description>
+   </intro>
+   <item
+         skip="true"
+         title="Откройте дерево модели">
+      <description>
+         Во-первых, необходимо убедиться, что дерево моделей открыто. Это можно сделать вручную из главного меню <b>Окно &gt; Модели</b> или автоматически с помощью этой шпаргалки.
+      </description>
+      <action
+      		required="false"
+      		pluginId="com.archimatetool.help"
+      		class="com.archimatetool.help.cheatsheets.ShowViewCheatSheetAction" 
+            param1="com.archimatetool.editor.treeModelView"/>
+            
+   </item>
+   <item
+         title="Создайте представления карты">
+      <description>
+         Создайте представление карты автоматически. <b>Убедитесь, что в дереве моделей выбрана модель и что у неё есть как минимум одно представление.</b>
+      </description>
+      <action
+      		required="false"
+      		pluginId="com.archimatetool.help"
+      		class="com.archimatetool.help.cheatsheets.CreateMapViewCheatSheetAction"/>
+   </item>
+   <item
+         title="Готово!">
+      <description>
+         Вот и всё. Готово!
+      </description>
+   </item>
+</cheatsheet>
